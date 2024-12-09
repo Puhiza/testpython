@@ -8,7 +8,7 @@ trigger:
 
 pool:
   name: azureagent
-  vmImage: ubuntu-latest
+  vmImage: windows-latest
 
 
 steps:
