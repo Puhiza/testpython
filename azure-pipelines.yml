@@ -9,6 +9,9 @@ trigger:
 pool:
   name: azureagent
   vmImage: windows-latest
+  demands:
+    - Agent.Version -gtVersion 2.163.1
+
 
 
 steps:
